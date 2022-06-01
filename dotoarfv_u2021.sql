@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 22, 2022 at 01:07 AM
+-- Generation Time: Jun 01, 2022 at 01:05 AM
 -- Server version: 10.3.34-MariaDB-log-cll-lve
 -- PHP Version: 7.4.29
 
@@ -1335,7 +1335,8 @@ INSERT INTO `cart` (`id`, `product_id`, `product_name`, `product_code`, `product
 (215, 185, 'Double Stem Cell', '185', 'N/Z', '', '9170.00', 1, '01647640029@dotomas.com', '1b977e7c2dd9032dcea8911c06ac8082', NULL, NULL, 0, NULL, NULL, 1, 0, NULL, NULL, 'large/4666974134.jpg', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (216, 21, 'Shirt', '21', 'N/Z', '9', '416.00', 1, 'md.alaminenglish@gmail.com', '61ffcb312d1cf4076c892a3fafbd7ed7', NULL, NULL, 0, NULL, NULL, 1, 170, NULL, NULL, 'large/1021861459.jpeg', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (218, 357, 'Detox Foot Patch(টক্সিন ক্লিঞ্জার)', '357', 'N/A', '', '1250.00', 1, 'md.alaminenglish@gmail.com', '3d61b71d82636928af3f26a65bed28b0', NULL, NULL, 0, NULL, NULL, NULL, 0, NULL, NULL, 'large/779029477.jpg', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(219, 185, 'Double Stem Cell', '185', 'N/Z', '', '9170.00', 1, '', '6d628491555a567f5b079c490979b5b2', NULL, NULL, 0, NULL, NULL, 1, 0, NULL, NULL, 'large/4666974134.jpg', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(219, 185, 'Double Stem Cell', '185', 'N/Z', '', '9170.00', 1, '', '6d628491555a567f5b079c490979b5b2', NULL, NULL, 0, NULL, NULL, 1, 0, NULL, NULL, 'large/4666974134.jpg', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(220, 276, 'Bikini Set', '276', 'N/A', '', '850.00', 1, '', 'e29fe3cc28212bd1b7e6b38272983b86', NULL, NULL, 0, NULL, NULL, 1, 0, NULL, NULL, 'large/1929481920.jpg', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1585,7 +1586,7 @@ INSERT INTO `delivery_addresses` (`id`, `user_id`, `user_email`, `name`, `addres
 (15, 22, '01823611058@ictsky.com/demo', 'Md. Meshbahul ALAM', 'Dhaka', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '01823611058', '2020-09-30 01:16:46', '2020-09-30 01:16:46'),
 (16, 23, '01762543381@ictsky.com/demo', 'saeed', 'uttara sector 13', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '01670754870', '2021-07-03 23:16:47', '2021-07-03 23:16:47'),
 (17, 24, '01863622616@ictsky.com/demo', 'Hamidl', 'Ramnagar shadar', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '01722912702', '2021-07-03 23:44:06', '2021-07-03 23:44:06'),
-(18, 1, 'admin@demo', 'Admin', 'Dhaka', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '00', '2021-11-24 18:38:41', '2021-11-25 05:38:41'),
+(18, 1, 'admin@demo', 'Alamin', 'Dhaka', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '01677212029', '2022-05-31 19:51:32', '2022-06-01 05:51:32'),
 (19, 33, '423534545@ictsky.com/demo', 'Md aminul islam', 'Jahangirnagar University', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '01824892646', '2021-07-06 10:10:48', '2021-07-06 10:10:48'),
 (20, 34, '0163729487239@ictsky.com/demo', 'Mizan Khan', 'kg', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '0163729487239', '2020-10-24 05:28:28', '2020-10-24 05:28:28'),
 (21, 37, '01767969679767969@ictsky.com/demo', 'Polash', '1/A/ka, (Beside Moonlight School) North Madartek, Sobujbag, Dhaka', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '01792674095', '2021-07-07 12:29:54', '2021-07-07 12:29:54'),
@@ -4029,7 +4030,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `address`, `city`, `pincode`, `phone`, `password`, `admin`, `father_name`, `nid`, `date_of_birth`, `p_address`, `nomini`, `nomimi_address`, `nomini_mobile`, `referral_id`, `up_line_id`, `downline_number`, `join_pin`, `joining_date`, `rank`, `withdraw_pin`, `personal_photo`, `remember_token`, `created_at`, `updated_at`, `nid_img`, `country`, `home_district`, `join_auth_code`, `j_name`, `j_mobile`, `education`, `total_downline`, `total_earning`, `total_withdraw`, `upline_arry`, `check_code`, `up_line_name`, `down_line_number`, `generation_value`, `my_gift_card`, `ref_upline`, `ref_upline_arry`, `permission`, `affiliate_block`, `total_sale`, `monthly_sale`, `promotion`, `email`, `gender`, `affiliate_com`, `promotional_dis`, `extra1`, `extra2`, `extra3`, `extra4`, `extra5`, `extra6`, `extra7`, `extra8`, `extra9`, `extra10`, `extra11`, `extra12`, `extra13`, `extra14`) VALUES
-(1, 'Admin', 'Dhaka', '1', 1, '00', '$2y$10$AoqmBtcCAapNpVX8U3Fd0.vyBAnlJNuEYMrhU0YL8HpmGBiRial5u', 1, NULL, 6611604, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'bhVYLwSGmmNC6GIk8fSG2ZrJUmhKpx9J7ND4FTBfpOsOZJImq7g5wE8cFDW1', '2020-09-13 08:04:36', '2021-11-25 05:38:41', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'admin@admin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-10-10 06:34:59'),
+(1, 'Alamin', 'Dhaka', '29', 5, '00', '$2y$10$AoqmBtcCAapNpVX8U3Fd0.vyBAnlJNuEYMrhU0YL8HpmGBiRial5u', 1, NULL, 6611604, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'bhVYLwSGmmNC6GIk8fSG2ZrJUmhKpx9J7ND4FTBfpOsOZJImq7g5wE8cFDW1', '2020-09-13 08:04:36', '2022-06-01 05:51:32', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'admin@admin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-10-10 06:34:59'),
 (2, 'Sub Admin', NULL, NULL, NULL, '00', '$2y$10$w49lwVj1IeS7bcPrYhxh3eR9QP3pAvt9XRXUyBbMYy8bRSVgUIJUy', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-07-29 06:39:10', '2021-07-29 06:39:10', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'admin2@admin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-10-10 06:34:59'),
 (41, 'wasifuzzaman', 'joarshahar, Vatara', '9', 1, '01851417647', '$2y$10$9h4puhx188oN9agiJTX43u/GG6OSqsUPgI4IDuqeKPw5z4XfhO9pO', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'sX4EFepKX9PCgaubuUt7pgGKhHhdnTzm5bHCz0yiAnGAmp6eVuVvLVOYa4zu', '2021-07-28 20:33:43', '2021-09-18 06:06:21', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'wasifuzzaman19@gmail.com', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-10-10 06:34:59'),
 (44, 'Developer Test', NULL, NULL, NULL, '01511448494333', '$2y$10$jjRRpWlG6J8vd6SI4tnR1uqtFhtagZgXC6ZKlHNgL4D7jl4itOIai', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-07-30 06:55:17', '2021-07-30 06:55:17', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'domainjanala@gmail.com', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2021-10-10 06:34:59'),
@@ -4091,8 +4092,8 @@ CREATE TABLE `v_count` (
 --
 
 INSERT INTO `v_count` (`sl`, `h_count`, `date`) VALUES
-(1, 14353, NULL),
-(2, 7, '22-May-22');
+(1, 14412, NULL),
+(2, 43, '01-Jun-22');
 
 --
 -- Indexes for dumped tables
@@ -4592,7 +4593,7 @@ ALTER TABLE `brands5`
 -- AUTO_INCREMENT for table `cart`
 --
 ALTER TABLE `cart`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=220;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=222;
 
 --
 -- AUTO_INCREMENT for table `categories`
